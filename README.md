@@ -80,6 +80,9 @@ Cenário descrito em português usando Gherkin:
 
 - Step Then (linhas): valida que existe pelo menos uma linha de resultado (tbody tr) na tabela, garantindo que a consulta retornou dados.
 
+<img width="1909" height="889" alt="image" src="https://github.com/user-attachments/assets/1ffc7d56-7303-4863-b15b-6e33071afe83" />
+
+
 
 ### 2. Teste 2 – Download de anexo de obra embargada (arquivo .feature)
 Cenário descrito em português usando Gherkin:
@@ -112,6 +115,9 @@ https://transparencia.joaopessoa.pb.gov.br/#/controle-urbano/obras-embargadas
 - Step When (download): intercepta a requisição de download (mapeando um GET genérico ou um padrão de URL) e, dentro da primeira linha da tabela, clica no botão de download do anexo (botão com ícone de download).
 
 - Step Then (requisição de download): espera a requisição interceptada com cy.wait, validando que o clique no botão de download realmente disparou o pedido de arquivo, o que indica que o botão de anexos está funcional.
+
+
+<img width="1912" height="889" alt="image" src="https://github.com/user-attachments/assets/ecf413e2-38bf-4bb6-b441-97217039a0fd" />
 
 
 ## Configuração
