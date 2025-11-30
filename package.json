@@ -1,0 +1,29 @@
+{
+  "name": "projeto_final_qa",
+  "version": "1.0.0",
+  "description": "Repositório do projeto final da disciplina de QA, prof. Ângelo Dias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleomarinho/projeto_final_qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleomarinho/projeto_final_qa/issues"
+  },
+  "homepage": "https://github.com/devleomarinho/projeto_final_qa#readme",
+  "devDependencies": {
+    "cypress": "^15.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+    
+  },
+  "cypress-cucumber-preprocessor": {
+  "step_definitions": "cypress/e2e/cucumber/steps"
+}
+
+}
