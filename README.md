@@ -2,6 +2,7 @@
 
 Automação de testes end‑to‑end usando **Cypress 13** com **Cucumber + Gherkin (BDD)** para validar a consulta de despesas no Portal da Transparência de João Pessoa, na tela **“Despesas – Quadro Geral”** e a funcionalidade de download de anexos na página **"Obras Embargadas"**.
 
+**Link para vídeo de demonstração do projeto:** https://youtu.be/PUHebzsEdH8
 ## Objetivo
 
 ### Teste 1: Página de "Despesas - Quadro Geral"
