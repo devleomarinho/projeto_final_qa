@@ -19,7 +19,7 @@ Garantir que um usuário consiga:
 - Gherkin (.feature) para descrição dos cenários em BDD  
 
 ## Estrutura do Projeto
-
+```
 .
 ├── cypress
 │ ├── e2e
@@ -34,7 +34,7 @@ Garantir que um usuário consiga:
 ├── cypress.config.js
 ├── package.json
 └── README.md
-
+```
 
 ## Cenários Implementados
 
